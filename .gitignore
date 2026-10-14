@@ -1,2 +1,13 @@
 outputs/
 temp/basemap.geojson
+api_key.txt
+__pycache__/
+temp/clean_basemap.geojson
+temp/data.geojson
+temp/islands_consolidated.geojson
+temp/mainland_only.geojson
+temp/merged_shapes_secondary.geojson
+temp/merged_shapes.geojson
+temp/names.geojson
+temp/neighbors.geojson
+temp/processed_map.geojson

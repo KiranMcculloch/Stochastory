@@ -205,6 +205,12 @@ def main():
 
     # Inject into the script section
     m.get_root().script.add_child(folium.Element(js_code))
+    
+    if not os.path.exists("./outputs"):
+    
+    # if the demo_folder directory is not present 
+    # then create it.
+        os.makedirs("./outputs")
 
     m.save(output_path)
     print(f"Map with dynamic labels successfully saved to {output_path}")
